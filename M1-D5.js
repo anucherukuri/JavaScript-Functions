@@ -43,6 +43,19 @@ crazySum(2,2)
  It should return triple their absolute difference if the given number is greater than 19.
 */
 
+let givenNumber
+let comparedNumber = 19
+const crazyDiff = function(givenNumber,comparedNumber){
+    absoluteDifference = Math.abs(givenNumber)- Math.abs(comparedNumber)
+    if(absoluteDifference > 19){
+        console.log("The Triple times absolute difference between the given number, "+givenNumber+ " and 19 is: "+absoluteDifference)
+    }else{
+        console.log("The difference between the given number,"+givenNumber+ " and 19 is: "+absoluteDifference)
+    } 
+}
+crazyDiff(20,comparedNumber)
+crazyDiff(50,comparedNumber)
+
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 4
