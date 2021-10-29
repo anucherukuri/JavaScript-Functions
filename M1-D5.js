@@ -83,7 +83,15 @@ boundary(200)
  Write a function called "strivify" which accepts a string as a parameter.
  It should add the word "Strive" in front of the given string, but if the given string already begins with "Strive", then it should just return the original string.
 */
-
+let givenString
+let updationString = "Strive"
+const strivify = function(givenString){
+    console.log("The given string after updating with the word STRIVE is: "+updationString+givenString)
+    console.log("Given String is: ")
+    return givenString    
+}
+console.log(strivify("School"))
+console.log(strivify("Education"))
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 6
