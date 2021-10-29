@@ -117,12 +117,29 @@ check3and7(26)
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
 */
-
+let randomString
+const reverseString = function(randomString){
+    let reversedString = ""
+for (let i = (randomString.length)-1; i >= 0; i--) {
+    reversedString.concat(reversedString,randomString[i])
+    console.log(randomString[i])    
+    }
+    console.log("reversed string:" +reversedString)
+}
+reverseString("Strive")
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 8
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
 */
+
+let givenWord
+const upperFirst = function(givenWord){
+    console.log("Given word is: "+givenWord)
+    console.log("The first letter of the given string is: "+givenWord[0])
+
+}
+upperFirst("Hello")
 
 /* WRITE YOUR ANSWER HERE */
 
