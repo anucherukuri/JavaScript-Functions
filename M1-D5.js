@@ -11,7 +11,12 @@ ASSIGNMENT RULES
 /* EXERCISE 1
  Write a function called "area" which receives 2 parameters (l1, l2) and calculates the area of the associated rectangle.
 */
-
+let lengthOfRectangle
+let widthOfRectangle
+const area = function(lengthOfRectangle,widthOfRectangle){
+ console.log("Area of Rectangle with length = "+lengthOfRectangle+" and width = "+widthOfRectangle+" is:" +(lengthOfRectangle * widthOfRectangle))
+}
+area(11,12)
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 2
