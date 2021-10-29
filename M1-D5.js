@@ -23,6 +23,18 @@ area(11,12)
  Write a function called "crazySum" which receives two integers as parameters.
  It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
 */
+let firstValue 
+let secondValue
+const crazySum = function(firstValue,secondValue)
+{
+    if(firstValue === secondValue){
+        console.log("The two values, " +firstValue+ " and "+secondValue+ " are SAME. So,the result of the sum of the given two numbers multipled by 3 is: "+(firstValue+secondValue)*3)
+    }else{
+      console.log("The two values, " +firstValue+ " and "+secondValue+ " are SAME. So,the result of the sum of the given two numbers is: "+(firstValue+secondValue))
+        }
+}
+crazySum(1,2)
+crazySum(2,2)
 
 /* WRITE YOUR ANSWER HERE */
 
