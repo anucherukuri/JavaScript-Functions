@@ -99,6 +99,19 @@ console.log(strivify("Education"))
  HINT: Modulus Operator
 */
 
+let positiveNumber
+const check3and7 = function(positiveNumber){
+    if((positiveNumber % 3) === 0){
+        console.log("Given positive number, "+positiveNumber+ " is a multiple of 3")
+    }else if((positiveNumber % 7) === 0){
+        console.log("Given positive number, "+positiveNumber+ " is a multiple of 7")
+    }else{
+        console.log("Given positive number, "+positiveNumber+ " is not a multiple of 3 or 7")
+    }
+}
+check3and7(42)
+check3and7(9)
+check3and7(26)
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 7
