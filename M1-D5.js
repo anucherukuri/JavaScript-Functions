@@ -61,7 +61,22 @@ crazyDiff(50,comparedNumber)
 /* EXERCISE 4
  Write a function called "boundary" which accept an integer parameter n and returns true if n is within 20 and 100 (included) or if n it's equal to 400.
 */
-
+let n
+const boundary = function(n){
+if((n>20) && (n<100)){
+    console.log("The given number, "+n+" is in between 20 and 100")
+    return true
+}else if(n == 400){
+    console.log("the given number, "+n+" is equal to 400")
+    return true
+} else{
+    console.log("The given number is not in the boundary(20 to 100) and not equal to 400 either")
+    return false
+    }
+}
+boundary(30)
+boundary(400)
+boundary(200)
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 5
